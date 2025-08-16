@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 981490a8caa04e74abe876d608cb086e, type: 3}
+  m_Name: WallOrSignalTower
+  m_EditorClassIdentifier: 
+  dataList:
+  - ID: 0
+    name: "\uC2E0\uD638\uD0D1"
+    description: "\uC678\uBD80\uC640\uC758 \uD1B5\uC2E0\uC744 \uC704\uD574 \uBC18\uB4DC\uC2DC
+      \uC9C0\uCF1C\uC57C \uD55C\uB2E4."
+    sprite: {fileID: 0}
+    dataByLevel:
+    - time: 0
+      hpMax: 1000
+      resources: []
+    - time: 30
+      hpMax: 1000
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 30
+      - resourceSort: {fileID: 11400000, guid: 1c983398b7c76c04e99fe4c351025bda, type: 2}
+        amount: 10
+      - resourceSort: {fileID: 11400000, guid: 59f93a03c16148e4f90f7365cc0e64eb, type: 2}
+        amount: 5
+    - time: 60
+      hpMax: 1000
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 30
+      - resourceSort: {fileID: 11400000, guid: 1c983398b7c76c04e99fe4c351025bda, type: 2}
+        amount: 10
+      - resourceSort: {fileID: 11400000, guid: 59f93a03c16148e4f90f7365cc0e64eb, type: 2}
+        amount: 5
+      - resourceSort: {fileID: 11400000, guid: d3b4e7c6521027148ba0932c125c048a, type: 2}
+        amount: 1
+    - time: 90
+      hpMax: 1000
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 30
+      - resourceSort: {fileID: 11400000, guid: 1c983398b7c76c04e99fe4c351025bda, type: 2}
+        amount: 10
+      - resourceSort: {fileID: 11400000, guid: 59f93a03c16148e4f90f7365cc0e64eb, type: 2}
+        amount: 5
+      - resourceSort: {fileID: 11400000, guid: d3b4e7c6521027148ba0932c125c048a, type: 2}
+        amount: 2
+    - time: 120
+      hpMax: 1000
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 30
+      - resourceSort: {fileID: 11400000, guid: 1c983398b7c76c04e99fe4c351025bda, type: 2}
+        amount: 10
+      - resourceSort: {fileID: 11400000, guid: 59f93a03c16148e4f90f7365cc0e64eb, type: 2}
+        amount: 5
+      - resourceSort: {fileID: 11400000, guid: d3b4e7c6521027148ba0932c125c048a, type: 2}
+        amount: 3
+  - ID: 1
+    name: "\uBCBD"
+    description: "\uC801 \uC774\uB3D9\uACBD\uB85C \uCC28\uB2E8"
+    sprite: {fileID: 0}
+    dataByLevel:
+    - time: 1
+      hpMax: 300
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 10
+    - time: 15
+      hpMax: 500
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 20
+    - time: 30
+      hpMax: 700
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 30

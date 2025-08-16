@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d84a63465759d4e96f34d4e7afd826, type: 3}
+  m_Name: Refinery
+  m_EditorClassIdentifier: 
+  dataList:
+  - ID: 6
+    name: "\uC815\uC81C\uC18C"
+    description: "\uC624\uC5FC\uB41C \uBB3C\uC744 \uC815\uC81C (30\uCD08 \uB2F9 1\uBCD1)"
+    sprite: {fileID: 0}
+    dataByLevel:
+    - time: 5
+      hpMax: 150
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 15
+      - resourceSort: {fileID: 11400000, guid: 1c983398b7c76c04e99fe4c351025bda, type: 2}
+        amount: 5
+      resourceForProduct: {fileID: 11400000, guid: 0774419f80bde2f4682359c12bd37f19,
+        type: 2}
+      product: {fileID: 11400000, guid: 4733040c154e1884e8ddc56c01d51a2b, type: 2}
+      productionTime: 3
+      amount: 1
+      capacity: 999

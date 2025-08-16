@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed9d68304e359d44f858b87279b51959, type: 3}
+  m_Name: Generator
+  m_EditorClassIdentifier: 
+  dataList:
+  - ID: 4
+    name: "\uBC1C\uC804\uAE30"
+    description: "\uBC94\uC704 \uB0B4 \uAC74\uBB3C\uC5D0 \uC804\uAE30\uB97C \uACF5\uAE09\uD558\uC5EC
+      \uC791\uB3D9\uD558\uAC8C\uB054 \uD569\uB2C8\uB2E4."
+    sprite: {fileID: 0}
+    dataByLevel:
+    - time: 3
+      hpMax: 200
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 15
+      - resourceSort: {fileID: 11400000, guid: 59f93a03c16148e4f90f7365cc0e64eb, type: 2}
+        amount: 2
+      activeRange: 20
+    - time: 30
+      hpMax: 200
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 25
+      - resourceSort: {fileID: 11400000, guid: 59f93a03c16148e4f90f7365cc0e64eb, type: 2}
+        amount: 3
+      activeRange: 25
+    - time: 45
+      hpMax: 200
+      resources:
+      - resourceSort: {fileID: 11400000, guid: 2383171c9568b034ba39bcb0c48246ae, type: 2}
+        amount: 35
+      - resourceSort: {fileID: 11400000, guid: 59f93a03c16148e4f90f7365cc0e64eb, type: 2}
+        amount: 5
+      activeRange: 30
