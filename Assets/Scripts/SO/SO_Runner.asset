@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53609433708e5e446a5b690ce850407a, type: 3}
+  m_Name: SO_Runner
+  m_EditorClassIdentifier: 
+  type: 1
+  maxHealth: 90
+  attackPower: 12
+  attackCoolTime: 2
+  moveSpeed: 4.67
+  canClimbWall: 0
+  canJumpOverWall: 0
+  isStealth: 0
+  isRanged: 0
+  targetsDronesFirst: 0
+  attackRange: 3
+  chasingRange: 100
+  wallDetectDistance: 5
+  StealthTime: 5
+  StealthRange: 10
+  StealthDurtaion: 5

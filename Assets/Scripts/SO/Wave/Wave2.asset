@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Wave2
+  m_EditorClassIdentifier: Assembly-CSharp::WaveData
+  spawnList:
+  - prefab: {fileID: 1293973660865695377, guid: b6766aef448ee0547866161abf38901d,
+      type: 3}
+    count: 10
+  - prefab: {fileID: 6356359047738232794, guid: d8a741ea3d177004db6d84b8de5fe4d9,
+      type: 3}
+    count: 6
+  waveWaitTime: 2

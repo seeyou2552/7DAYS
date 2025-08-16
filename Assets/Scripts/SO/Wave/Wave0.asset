@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Wave0
+  m_EditorClassIdentifier: Assembly-CSharp::WaveData
+  spawnList:
+  - prefab: {fileID: 6325313365556494635, guid: c2cb65ca36f08874db54d9c1bc21022a,
+      type: 3}
+    count: 5
+  - prefab: {fileID: 1293973660865695377, guid: b6766aef448ee0547866161abf38901d,
+      type: 3}
+    count: 5
+  - prefab: {fileID: 6356359047738232794, guid: d8a741ea3d177004db6d84b8de5fe4d9,
+      type: 3}
+    count: 5
+  - prefab: {fileID: 8320420875000842671, guid: 0b4033cc94313e94c9abdf8e4c2182ad,
+      type: 3}
+    count: 5
+  - prefab: {fileID: 8554156630064820184, guid: af74c0aa059625047a9262d8beb2cb30,
+      type: 3}
+    count: 5
+  - prefab: {fileID: 124220903192209986, guid: d0b3e2c40367ddf4b8f9070dc7a95c37, type: 3}
+    count: 5
+  - prefab: {fileID: 1909819970742039487, guid: 8e1fc580bd464db4aa0b160cf2f24af7,
+      type: 3}
+    count: 2
